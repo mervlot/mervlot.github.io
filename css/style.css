@@ -1,26 +1,248 @@
-
+/* Main section styling */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f0f0f0;
 }
-.container {
+
+/* Styling for paragraphs with the class 'ppr' */
+.ppr {
+    font-family: Roboto, sans-serif;
+    color: #0073FF;
+}
+
+/* Circular images with class 'pic' */
+.pic {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+/* Styling for elements with class 'h' */
+.h {
+    color: red;
+}
+
+/* Bootstrap-like icons styling */
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+
+
+/* Dark-themed form controls */
+.form-control-dark {
+    border-color: var(--bs-gray);
+}
+
+.form-control-dark:focus {
+    border-color: #fff;
+    box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+}
+
+/* Smaller text size */
+.text-small {
+    font-size: 85%;
+}
+
+/* Dropdown toggle without focus outline */
+.dropdown-toggle:not(:focus) {
+    outline: 0;
+}
+
+
+
+/* Hero section styling */
+.hero {
+    background: linear-gradient(135deg, #6a0dad, #1e90ff);
+    padding: 100px 0;
     text-align: center;
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-h1 {
-    margin: 0;
+
+.hero h2 {
+    font-size: 3em;
+    margin: 0 0 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin: 0 0 30px;
+}
+
+/* Button styling within the hero section */
+.hero .btn {
+    background-color: #fff;
+    color: #1c1c1e;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Features section styling */
+.features {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.features h2 {
+    margin-bottom: 40px;
     font-size: 2.5em;
-    color: #333;
 }
-p {
-    color: #666;
+
+/* Individual feature item styling */
+.feature-item {
+    margin-bottom: 30px;
 }
+
+.feature-item h3 {
+    font-size: 1.8em;
+    color: #6a0dad;
+}
+
+.feature-item p {
+    font-size: 1.1em;
+}
+
+/* About section styling */
+.about {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about h2 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+/* Footer styling */
+footer {
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Logo image styling */
+.logo {
+    width: 20%;
+}
+
+/* Spacer for layout adjustments */
+.space {
+    height: 90px !important;
+}
+
+/* Class for additional margin adjustments */
+.s {
+    margin-top: 10%;
+}
+
+/* Preloader styling */
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--bs-body-bg);
+    text-align: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#preloader img {
+    width: 50%;
+    height: auto;
+    margin-top: 60%;
+}
+
+/* Preloader status styling */
+#status {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+
+
+.bi {
+    color: inherit;
+}
+
+.vi {
+    color: inherit;
+}
+
+.btn-bd-primary {
+    --bd-violet-bg: #712cf9;
+    --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--bd-violet-bg);
+    --bs-btn-border-color: var(--bd-violet-bg);
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: #6528e0;
+    --bs-btn-hover-border-color: #6528e0;
+    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #5a23c8;
+    --bs-btn-active-border-color: #5a23c8;
+}
+
+.bd-mode-toggle {
+    z-index: 1500;
+}
+
+.bd-mode-toggle .dropdown-menu .active .bi {
+    display: block !important;
+}
+
+.border-p {
+    border-color: #6a0dad;
+}
+
+.text-bg-p {
+    background-color: #6a0dad;
+}
+
+.btn-p {
+    background-color: #6a0dad;
+}
+
+.btn-p:hover {
+    background-color: #9500ff;
+}
+.fff{
+    border: none !important;
+    outline: none;
+    box-shadow: none;
+}   
+.fff:hover{
+    border: none !important;
+}   
+.fff:focus{
+    border: none !important;
+    outline: none;
+    box-shadow: none;
+}   
+.fff:active{
+    border: none !important;
+    outline: none;
+    box-shadow: none;
+}   
+.fff:focus-visible{
+    border: none !important;
+}   
+.fff::after{
+    border: none !important;
+}   
+.fff:focus-within{
+    border: none !important;
+}   
+ 
