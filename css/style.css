@@ -1,4 +1,10 @@
 /* Main section styling */
+[data-bs-theme="light"] {
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+[data-bs-theme="dark"] {
+        text-shadow: 1px 1px 1px rgba(70, 68, 68, 0.3);
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
