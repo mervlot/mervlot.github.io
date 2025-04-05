@@ -1,10 +1,13 @@
 /* Main section styling */
 [data-bs-theme="light"] {
         text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+        background: linear-gradient(to left, #00FFF8, #003AFF)!important;
 }
 [data-bs-theme="dark"] {
         text-shadow: 1px 1px 1px rgba(70, 68, 68, 0.3);
+        background: linear-gradient(to left,#5908A0, #000000)!important;
 }
+[data-bs-theme="light"] body
 body {
     font-family: 'popins', sans-serif;
     font-size: 1rem;
@@ -12,6 +15,7 @@ body {
     line-height: 1.5;
     margin: 0;
     padding: 0;
+    background: inherit !important;
 }
 
 /* Styling for paragraphs with the class 'ppr' */
